@@ -1,0 +1,2 @@
+### Estudo do Livro: ***Lógica de Programação e Algoritmos com JavaScript*** ###
+## ![Ghost_in_the_Shell](https://external-preview.redd.it/CSP4y3gv1UbZded2kff_0dmH3BJ-Kx2fDZAdQeizkaQ.jpg?auto=webp&s=c745c7aabca6382145ac5deb76b874543966df61) ##

@@ -1,0 +1,32 @@
+<meta charset="utf-8" />
+
+<script>
+  /* 
+    Elaborar um programa que leia o valor de um jantar.
+    Calcule e informe o valor da taxa do Garçom (10%) e o valor Total a ser Pago.
+    */
+
+  //Lê o valor do jantar:
+  var pratoEntrada = Number(prompt("Qual o valor do Prato de Entrada? "));
+  var pratoPrincipal = Number(prompt("Qaul o valor do Prato Principal? "));
+  var valorBebidas = Number(prompt("Qual o valor das Bebidas? "));
+  var valorSobremesa = Number(prompt("Qual o valor da Sobremesa? "));
+
+  //Calcular o Valor do Jantar:
+  var valorJantar =
+    pratoEntrada + pratoPrincipal + valorBebidas + valorSobremesa;
+
+  //Calcula a porcentagem do Garçom e o Valor Total:
+  var porcentagem_1 = valorJantar / 100;
+  var taxaGarçom = porcentagem_1 * 10;
+  var valorTotal = valorJantar + taxaGarçom;
+
+  //Apresenta os valores para o Usuário:
+  alert(
+    "O Valor do Jantar foi: " +
+      valorJantar.toFixed(2) +
+      "\n A Taxa do Garçom foi: " +
+      taxaGarçom.toFixed(2)
+  );
+  alert("O Valor Total é: " + valorTotal);
+</script>
