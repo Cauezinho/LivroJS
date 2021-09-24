@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Casa da Tecnologia</title>
+
+    <script>
+    // desenvolver um código HTML para um cadastro de fornecedores 
+    // Criar banco de dados para os 4 campos
+        function Cadastro(){
+            
+            var product_name = document.getElementById("produto").value;
+            var description = document.getElementById("descricao").value;
+            var value = document.getElementById("valor").value;
+            var supplier = documen.getElementById("fornecedor").value;
+        /*
+            function Cadastro() {
+            var nome_cliente = document.getElementById("nome").value;
+            var endereco_cliente = document.getElementById("endereco").value;
+            var idade = document.getElementById("idade").value;
+            if (document.getElementById("masculino").checked){
+            var sexo_cliente = “M”
+
+            var dadosajax = {
+                'nome_cliente': nome_cliente,
+                ‘endereco_cliente’: endereço_cliente,
+                ‘idade_cliente’: idade_cliente,
+                ‘sexo_cliente’: sexo_cliente
+            };
+            var pageurl = grava_cliente.php';
+            $.ajax({
+                url: pageurl,
+                data: dadosajax,
+                type: 'POST',
+                cache: false,
+                error: function(XMLHttpRequest, textStatus, errorThrown)
+                {
+                    alert(“Erro Gravação Cliente!!”);
+                },
+                success: function(result)
+                {
+                alert("Gravação Cliente efetuada com sucesso");
+                return;
+            }
+        }
+
+
+
+
+        */
+
+        }
+
+
+    </script>
+
+  </head>
+
+<body>
+    <h1>Cadastro de Produto</h1>
+    <h4>Inclua as informações do produto abaixo:</h4>
+
+    <p> Nome do Produto:
+      <input type="text" id="produto"> </p>
+    <p> Descrição do Produto:
+      <input type="text" id="descricao"> </p>
+    <p> Valor do Produto:
+      <input type="text" id="valor"> </p>
+    <p> Fornecedor do Produto:
+      <input type="text" id="fornecedor"> </p>
+
+    <p>
+      <input type="button" value="Cadastrar" id="cadastrar" onclick="Cadastro()"> </p>
+
+</body>
+
+</html>
